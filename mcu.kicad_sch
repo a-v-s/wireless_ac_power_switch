@@ -767,6 +767,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
+  (global_label "SDA" (shape input) (at 134.62 101.6 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 18ba5770-9a2c-4a91-a831-71bc70e7ffff)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.0667 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "SPI_CS" (shape input) (at 167.64 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1eea6fa6-8f4e-4039-8628-faf5d3e39fef)
@@ -907,6 +914,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "SCL" (shape input) (at 134.62 99.06 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid e13ed9e8-86be-4510-9adf-a692a3e14ba1)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.1272 99.06 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "TCK" (shape input) (at 64.77 114.3 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid eb3e350c-858f-474e-9718-6acfc0b9247f)
@@ -955,9 +969,6 @@
     (pin "2" (uuid d86336dc-261b-403f-a12e-b4e356ec6a1c))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "C8") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "C8") (unit 1)
         )
@@ -968,7 +979,7 @@
   (symbol (lib_id "power:+3V3") (at 124.46 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06a4f853-006e-4ea2-aa53-5e527033656d)
-    (property "Reference" "#PWR017" (at 124.46 49.53 0)
+    (property "Reference" "#PWR026" (at 124.46 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 124.46 40.64 0)
@@ -983,9 +994,6 @@
     (pin "1" (uuid 125014a1-0669-4a7b-87f0-cdbd4ea60996))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR026") (unit 1)
         )
@@ -1011,9 +1019,6 @@
     (pin "1" (uuid 6953a013-a745-4756-827d-d3f51f8bddb6))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR018") (unit 1)
         )
@@ -1024,7 +1029,7 @@
   (symbol (lib_id "power:GND") (at 151.13 139.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26213d9f-2186-4179-b03a-37a07bcfbe58)
-    (property "Reference" "#PWR018" (at 151.13 145.415 0)
+    (property "Reference" "#PWR020" (at 151.13 145.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 144.145 0)
@@ -1039,9 +1044,6 @@
     (pin "1" (uuid 2796fa6c-d080-4cba-9212-58a7761f2bce))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR020") (unit 1)
         )
@@ -1052,7 +1054,7 @@
   (symbol (lib_id "Device:C_Small") (at 241.935 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ff05be1-381a-43c5-869a-36f1f7f86984)
-    (property "Reference" "C8" (at 244.475 109.8613 0)
+    (property "Reference" "C10" (at 244.475 109.8613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_Small" (at 244.475 112.4013 0)
@@ -1068,9 +1070,6 @@
     (pin "2" (uuid 166a8bda-aef7-479f-a816-64f94f665e90))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "C8") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "C10") (unit 1)
         )
@@ -1081,7 +1080,7 @@
   (symbol (lib_id "power:+3V3") (at 241.935 103.505 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32dec7b7-fd78-423e-a51d-f11bf008b5af)
-    (property "Reference" "#PWR017" (at 241.935 107.315 0)
+    (property "Reference" "#PWR023" (at 241.935 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 241.935 98.425 0)
@@ -1096,9 +1095,6 @@
     (pin "1" (uuid 286a14a3-a7b2-43a0-a5ab-098e44dd1892))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR023") (unit 1)
         )
@@ -1109,7 +1105,7 @@
   (symbol (lib_id "power:GND") (at 241.935 113.665 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38187269-99ed-4d2d-8d7b-6cd56ecbb25b)
-    (property "Reference" "#PWR018" (at 241.935 120.015 0)
+    (property "Reference" "#PWR024" (at 241.935 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.935 118.745 0)
@@ -1124,9 +1120,6 @@
     (pin "1" (uuid ba4c668e-c9ed-4e7c-8df7-f3450b3eb160))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR024") (unit 1)
         )
@@ -1137,7 +1130,7 @@
   (symbol (lib_id "power:+3V3") (at 45.72 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3af58dde-97aa-488e-ba72-98ec3eb20042)
-    (property "Reference" "#PWR017" (at 45.72 110.49 0)
+    (property "Reference" "#PWR028" (at 45.72 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 45.72 101.6 0)
@@ -1152,9 +1145,6 @@
     (pin "1" (uuid a90956b8-1a00-44d4-b84e-5b5e4c6cc4d5))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR028") (unit 1)
         )
@@ -1165,7 +1155,7 @@
   (symbol (lib_id "power:+3V3") (at 152.4 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c621d9b-072e-4658-b202-8fe0f556abff)
-    (property "Reference" "#PWR017" (at 152.4 48.26 0)
+    (property "Reference" "#PWR019" (at 152.4 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 152.4 39.37 0)
@@ -1180,9 +1170,6 @@
     (pin "1" (uuid d6d00876-acd3-45f8-8459-eba48696edc5))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR019") (unit 1)
         )
@@ -1281,9 +1268,6 @@
     (pin "6" (uuid e2ed0f4f-f191-4aba-be28-1672ab320405))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "U1") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "U1") (unit 1)
         )
@@ -1300,7 +1284,7 @@
     (property "Value" "Conn_02x05_Odd_Even" (at 58.42 108.5596 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" (at 57.15 116.84 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" (at 57.15 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 57.15 116.84 0)
@@ -1348,9 +1332,6 @@
     (pin "1" (uuid 7ab9a52f-e73d-4265-af26-bd9f7a9542eb))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR017") (unit 1)
         )
@@ -1361,7 +1342,7 @@
   (symbol (lib_id "power:GND") (at 115.57 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65b7e1f0-5018-4a2d-880e-cd3b1aa048fd)
-    (property "Reference" "#PWR018" (at 115.57 72.39 0)
+    (property "Reference" "#PWR027" (at 115.57 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 71.12 0)
@@ -1376,9 +1357,6 @@
     (pin "1" (uuid 03472064-dc4a-40d2-8f27-eda10138e464))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR027") (unit 1)
         )
@@ -1389,7 +1367,7 @@
   (symbol (lib_id "power:GND") (at 254.635 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70c4bc49-f3d5-4df3-a887-df31c97cbd46)
-    (property "Reference" "#PWR018" (at 254.635 96.52 0)
+    (property "Reference" "#PWR022" (at 254.635 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254.635 95.25 0)
@@ -1404,9 +1382,6 @@
     (pin "1" (uuid 8249c7ab-cf24-4686-bb06-0118185774f8))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR022") (unit 1)
         )
@@ -1417,7 +1392,7 @@
   (symbol (lib_id "Device:C_Small") (at 254.635 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c952a96-b1e8-4081-9d39-8c9e010e9482)
-    (property "Reference" "C8" (at 257.175 86.3663 0)
+    (property "Reference" "C9" (at 257.175 86.3663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_Small" (at 257.175 88.9063 0)
@@ -1433,9 +1408,6 @@
     (pin "2" (uuid cd194523-ef6f-456a-a8b7-696776a9e292))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "C8") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "C9") (unit 1)
         )
@@ -1472,7 +1444,7 @@
   (symbol (lib_id "power:+3V3") (at 254.635 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fafa79fe-ca6d-41f8-b73f-538b34b528c8)
-    (property "Reference" "#PWR017" (at 254.635 83.82 0)
+    (property "Reference" "#PWR021" (at 254.635 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 254.635 74.93 0)
@@ -1487,9 +1459,6 @@
     (pin "1" (uuid cff523ea-ec32-4780-8df7-8f8b684033e6))
     (instances
       (project "power_switch"
-        (path "/543c7337-e9cf-4717-8769-b39627e65a80"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
           (reference "#PWR021") (unit 1)
         )

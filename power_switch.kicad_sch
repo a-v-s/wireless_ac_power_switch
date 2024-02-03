@@ -3564,6 +3564,23 @@
     )
   )
 
+  (sheet (at 75.565 168.275) (size 16.51 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c294deda-7a66-420a-b834-37b39049d13c)
+    (property "Sheetname" "Sensors" (at 75.565 167.5634 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sensors.kicad_sch" (at 75.565 185.3696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "power_switch"
+        (path "/543c7337-e9cf-4717-8769-b39627e65a80" (page "3"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
