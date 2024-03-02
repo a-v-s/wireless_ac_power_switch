@@ -1064,6 +1064,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 153.67 69.088 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 11ef0caf-9c7e-4b60-8e1c-22c04210b827)
+    (property "Reference" "#PWR036" (at 153.67 72.898 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 153.67 64.008 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 153.67 69.088 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 153.67 69.088 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ac97c905-103f-4fba-91e0-5cf4869076db))
+    (instances
+      (project "power_switch"
+        (path "/543c7337-e9cf-4717-8769-b39627e65a80/c294deda-7a66-420a-b834-37b39049d13c"
+          (reference "#PWR036") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 226.822 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 346c7e5e-a2a8-4b78-ae50-783cae51d7bc)
@@ -1084,6 +1109,31 @@
       (project "power_switch"
         (path "/543c7337-e9cf-4717-8769-b39627e65a80/c294deda-7a66-420a-b834-37b39049d13c"
           (reference "#PWR035") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 153.67 84.328 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 472f5afa-d2da-4f1a-91b6-bacbb1a3216a)
+    (property "Reference" "#PWR038" (at 153.67 90.678 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 153.67 89.408 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 153.67 84.328 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 153.67 84.328 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ef9c774b-a598-4fa3-b980-df3676177449))
+    (instances
+      (project "power_switch"
+        (path "/543c7337-e9cf-4717-8769-b39627e65a80/c294deda-7a66-420a-b834-37b39049d13c"
+          (reference "#PWR038") (unit 1)
         )
       )
     )
