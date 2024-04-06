@@ -2804,7 +2804,7 @@
 		(fields_autoplaced yes)
 		(uuid "05b7e2cc-c25d-4eb1-bd15-2e0ad60e1157")
 		(property "Reference" "C8"
-			(at 244.475 87.0013 0)
+			(at 245.11 87.0012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,8 +2812,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 244.475 89.5413 0)
+		(property "Value" "1u"
+			(at 245.11 89.5412 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ff05be1-381a-43c5-869a-36f1f7f86984")
 		(property "Reference" "C10"
-			(at 244.475 109.8613 0)
+			(at 245.11 109.8612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,8 +3080,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 244.475 112.4013 0)
+		(property "Value" "1u"
+			(at 245.11 112.4012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3406,7 @@
 		(fields_autoplaced yes)
 		(uuid "43c32db8-3a21-439c-9fb8-d382e4008ba4")
 		(property "Reference" "R7"
-			(at 118.11 62.23 0)
+			(at 118.11 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,8 +3414,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
-			(at 118.11 64.77 0)
+		(property "Value" "10K"
+			(at 118.11 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3980,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c952a96-b1e8-4081-9d39-8c9e010e9482")
 		(property "Reference" "C9"
-			(at 257.175 86.3663 0)
+			(at 257.81 86.3662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,8 +3988,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 257.175 88.9063 0)
+		(property "Value" "1u"
+			(at 257.81 88.9062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +4058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10K"
 			(at 127 53.34 0)
 			(effects
 				(font

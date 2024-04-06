@@ -4206,13 +4206,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.035 92.71) (xy 164.465 92.71)
+			(xy 152.4 92.71) (xy 164.465 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8df3a750-fe80-4663-8a55-cc0bf8b4ddaa")
+		(uuid "8628b68a-923f-41d3-aaac-6b1060ed130d")
 	)
 	(wire
 		(pts
@@ -5053,7 +5053,7 @@
 		(fields_autoplaced yes)
 		(uuid "01fab296-aa94-4d7f-a16c-8e88d2ca0e8f")
 		(property "Reference" "C7"
-			(at 179.07 93.9863 0)
+			(at 179.07 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,8 +5061,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 179.07 96.5263 0)
+		(property "Value" "1u"
+			(at 179.07 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5574,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f793938-dfe5-464a-b967-00df7ad71749")
 		(property "Reference" "C13"
-			(at 191.262 93.9863 0)
+			(at 191.77 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,8 +5582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 191.262 96.5263 0)
+		(property "Value" "1u"
+			(at 191.77 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,7 +5652,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1u"
 			(at 154.94 96.5263 0)
 			(effects
 				(font
@@ -7611,7 +7611,7 @@
 		(fields_autoplaced yes)
 		(uuid "943d83f5-0e68-4f90-8f6a-a841d0cc5671")
 		(property "Reference" "C3"
-			(at 119.38 93.9863 0)
+			(at 119.38 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,8 +7619,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 119.38 96.5263 0)
+		(property "Value" "1u"
+			(at 119.38 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100n"
 			(at 248.9136 69.215 90)
 			(effects
 				(font
@@ -8355,15 +8355,15 @@
 		(fields_autoplaced yes)
 		(uuid "cb9406b8-76bd-4a8d-8fc2-9ca71246d8c0")
 		(property "Reference" "C11"
-			(at 249.5486 97.155 90)
+			(at 249.5486 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 249.5486 99.695 90)
+		(property "Value" "100n"
+			(at 249.5486 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +8495,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5be2707-cd20-4100-914a-abca244fa5ff")
 		(property "Reference" "C6"
-			(at 167.005 93.9863 0)
+			(at 167.64 93.9862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,8 +8503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 167.005 96.5263 0)
+		(property "Value" "1u"
+			(at 167.64 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
