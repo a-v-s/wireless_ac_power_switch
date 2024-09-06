@@ -2137,6 +2137,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 104.14) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8207120-bb96-4c93-aab1-ce69bf3c3592")
+	)
+	(wire
+		(pts
 			(xy 154.94 47.625) (xy 157.48 47.625)
 		)
 		(stroke
@@ -2902,6 +2912,72 @@
 			(project "power_switch"
 				(path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 255.27 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b026bda-7aed-4b06-9bb7-d8404f480721")
+		(property "Reference" "#PWR053"
+			(at 255.27 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 255.27 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d5c0af5-29c3-4c90-982a-fac54687dc90")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4082,6 +4158,142 @@
 			(project "power_switch"
 				(path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 255.27 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae70e43a-f1f2-4089-b2a7-bcc886fa9830")
+		(property "Reference" "C18"
+			(at 258.445 110.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 258.445 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d14e35a-df46-402d-8cf0-2faf8845ea3d")
+		)
+		(pin "2"
+			(uuid "843dad09-42ca-41a9-b242-d5f885fc1351")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7ae82a8-cb74-4b3a-ba46-767d5539ad89")
+		(property "Reference" "#PWR054"
+			(at 255.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c81795e-e204-452a-b46c-afd74eb90b1d")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80/72e76b40-e326-4821-8160-e8803d9d2e03"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
