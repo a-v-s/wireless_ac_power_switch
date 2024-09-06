@@ -2205,6 +2205,28 @@
 		)
 		(uuid "f9db961d-4942-4ee9-bce4-70fc8836d741")
 	)
+	(global_label "DQ"
+		(shape input)
+		(at 134.62 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0de1f2d6-0bc4-404c-b555-43d11c60e727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.0343 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nTRST"
 		(shape input)
 		(at 134.62 93.98 180)
@@ -2641,28 +2663,6 @@
 			)
 		)
 	)
-	(global_label "SPI_CS3"
-		(shape input)
-		(at 134.62 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5fe7b83-ddca-41b1-9c14-a7fed0efe547")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8939 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 134.62 99.06 180)
@@ -2723,28 +2723,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CS2"
-		(shape input)
-		(at 134.62 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f0efb79c-3694-4fbd-9e68-3e7c49777e3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8939 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
