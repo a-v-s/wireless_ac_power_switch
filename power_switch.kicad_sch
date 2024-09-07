@@ -3836,6 +3836,12 @@
 		(uuid "97e775da-7504-48a4-b325-e2a9b747bef0")
 	)
 	(junction
+		(at 200.66 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4bce659-0324-4e69-9a7b-20920d63c647")
+	)
+	(junction
 		(at 72.39 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4010,6 +4016,16 @@
 			(type default)
 		)
 		(uuid "12e8064f-5e87-4d58-ad51-acc0e9050f25")
+	)
+	(wire
+		(pts
+			(xy 200.66 144.78) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "135f795c-e7a0-4247-83c5-00d2ad1b9ff9")
 	)
 	(wire
 		(pts
@@ -5070,6 +5086,16 @@
 			(type default)
 		)
 		(uuid "ee924e69-d6b5-4eb8-a510-dbadda7c724d")
+	)
+	(wire
+		(pts
+			(xy 188.722 149.86) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2a875b-ef63-4323-8b7f-845fe2aa7661")
 	)
 	(wire
 		(pts
@@ -6927,6 +6953,76 @@
 			(project "ac_switch"
 				(path "/54595492-1f96-4998-91c7-8049f999a563"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 200.66 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "506eeea6-d1af-4fc2-88aa-d4b07371750d")
+		(property "Reference" "C19"
+			(at 203.708 151.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 203.708 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac10eed8-1bf4-4a6a-a899-fb9b67398416")
+		)
+		(pin "2"
+			(uuid "cb97f902-7b1a-4856-8808-4806a8e8ed30")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9867,6 +9963,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2541ee7-052e-4299-9d37-8698992c001c")
+		(property "Reference" "#PWR055"
+			(at 200.66 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 200.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9fb3e7-18ee-420b-b3cf-82e43a4b2eed")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 16.51 27.94 0)
 		(unit 1)
@@ -9925,6 +10087,72 @@
 			(project "power_switch"
 				(path "/543c7337-e9cf-4717-8769-b39627e65a80"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ec3235-371b-48f9-b3ad-136cf55768ab")
+		(property "Reference" "#PWR056"
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0518c63-7420-440d-b0d8-bd5cef75960b")
+		)
+		(instances
+			(project "power_switch"
+				(path "/543c7337-e9cf-4717-8769-b39627e65a80"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
