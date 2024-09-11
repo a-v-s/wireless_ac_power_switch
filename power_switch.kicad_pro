@@ -470,7 +470,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "rf_ac_pwr_sw_v0.3",
+      "plot": "bsdom_acswitch_v0.4",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
